@@ -1,0 +1,38 @@
+﻿# 🔹 Byggmappar & binära filer
+bin/
+obj/
+publish/
+out/
+
+# 🔹 Visual Studio-specifika filer
+.vs/
+.vscode/
+*.csproj.user
+*.suo
+*.user
+*.sln.docstates
+
+# 🔹 Rider (JetBrains)
+.idea/
+
+# 🔹 Paket & beroenden
+packages/
+node_modules/
+wwwroot/
+
+# 🔹 Loggar & tillfälliga filer
+*.log
+*.tlog
+*.cache
+
+# 🔹 Konfigurationsfiler
+appsettings.json
+appsettings.Development.json
+
+# 🔹 Miljöfiler (kan innehålla känslig info)
+.env
+secrets.json
+
+# 🔹 OS-specifika filer
+.DS_Store
+Thumbs.db
